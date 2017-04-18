@@ -1,0 +1,36 @@
+{
+  "name": "purescript-react-tutorial",
+  "version": "1.0.0",
+  "description": "purescript-react-tutorial",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  },
+  "devDependencies": {
+    "purescript": "^0.11.4",
+    "purescript-psa": "^0.5.1",
+    "purs-loader": "^2.4.2",
+    "webpack": "^2.4.1",
+    "webpack-dev-server": "^2.4.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack": "webpack --progress",
+    "webpack:watch": "webpack --progress --watch",
+    "webpack-dev-server": "webpack-dev-server --progress --inline --hot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/psibi/purescript-react-tutorial.git"
+  },
+  "author": "Sibi",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/psibi/purescript-react-tutorial/issues"
+  },
+  "homepage": "https://github.com/psibi/purescript-react-tutorial#readme"
+}
